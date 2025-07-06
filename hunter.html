@@ -1,0 +1,297 @@
+<html>
+
+<head>
+    <title>Cacciatore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #660000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+
+        th,
+        td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px #ccc;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 1em;
+        }
+
+        ul li::before {
+            content: "⮚ ";
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cacciatore</h1>
+    <section><img src="hunter.png" alt="Cover"></section>
+    <section>
+        <h2>“Non li seguo per ucciderli. Li inseguo per capire cosa mi hanno lasciato dentro.”</h2>
+        <p>
+            I Cacciatori non nascono da una mutazione. Non sono scienziati della carne come gli Apotecari, né tessitori
+            di corruzione come gli Intessitori.
+            Sono umani che combattono con ciò che hanno strappato ai mostri. Ogni arma è un legame biologico. Ogni
+            colpo, un ricordo dell’orrore.
+        </p>
+        <h3>Funzione nel gruppo</h3>
+        <p>
+            Braccio armato tattico: colpisce rapidamente, sfrutta vulnerabilità e cambia stile in base all’arma.
+            Perfetto per chi vuole velocità, adattabilità e controllo del campo.
+        </p>
+    </section>
+
+    <section>
+        <h2>Giocare un cacciatore</h2>
+        <ul>
+            <li>Le armi del Cacciatore sono biologiche e collegate al suo sistema nervoso.</li>
+            <li>Il grado di invasività è scelto dal giocatore: impianti interni o innesti parziali.</li>
+            <li>
+                Il Cacciatore seleziona un talento di livello 1 alla creazione e ne acquisisce uno ogni nuovo livello
+                (di livello ≤ al suo).
+            </li>
+            <li>Il cacciatore seleziona un'arma di partenza con cui parte a livello 1 tra le sequenti</li>
+            <li>Se il cacciatore possiede più di un'arma magica, può cambiare arma in uso al costo di 1 azione</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Armi</h2>
+        <h3>Lame Gemelle</h3>
+        <section><img src="spade gemelle.png" alt="Cover"></section>
+        <ul>
+            <li>Due lame sintetizzate (pugnali, sciabole, ecc.).</li>
+            <li>1 azione = 2 colpi. Danno: 1D4 + CORPO.</li>
+            <li>Requisiti: CORPO 2+</li>
+            <li>Reagenti: 5 CW1</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Costo mana</th>
+                <th>Tipo azione</th>
+                <th>Effetto</th>
+            </tr>
+            <tr>
+                <td>Danza macabra</td>
+                <td>-</td>
+                <td>Passiva</td>
+                <td>Se colpisci con entrambe le lame, ottieni SLANCIO contro lo stesso nemico nella prossima azione di
+                    attacco.</td>
+            </tr>
+            <tr>
+                <td>Riflessi funebri</td>
+                <td>1</td>
+                <td>Reazione</td>
+                <td>Se schivi con almeno 2 successi, eviti l’attacco e puoi contrattaccare subito tirando 2D6 in meno al
+                    colpire.</td>
+            </tr>
+        </table>
+
+        <h3>Spadone runico del demone</h3>
+        <section><img src="spadone.png" alt="Cover"></section>
+        <ul>
+            <li>Danno: 1D12 + CORPO. Requisiti: CORPO 3+</li>
+            <li>Reagenti: 6 CW1</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Costo mana</th>
+                <th>Azione</th>
+                <th>Effetto</th>
+            </tr>
+            <tr>
+                <td>Colpo spinale</td>
+                <td>3</td>
+                <td>1</td>
+                <td>Attacco con SLANCIO. Se almeno 2 successi: ignora riduzione danno.</td>
+            </tr>
+            <tr>
+                <td>Schianto meteorico</td>
+                <td>2</td>
+                <td>2</td>
+                <td>Attacco ad area in linea di 5 caselle. 5D6 e blocco movimento per 1 round.</td>
+            </tr>
+        </table>
+
+        <h3>Lancia del drago</h3>
+        <section><img src="lancia del drago.png" alt="Cover"></section>
+        <ul>
+            <li>Danno: 2D6 + CORPO. Raggio: 2 caselle. Requisiti: CORPO 3+</li>
+            <li>Reagenti: 7 CW1</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Costo mana</th>
+                <th>Azione</th>
+                <th>Effetto</th>
+            </tr>
+            <tr>
+                <td>Affondo draconico</td>
+                <td>3</td>
+                <td>1</td>
+                <td>Attacco con SLANCIO. Il bersaglio viene spinto indietro di un ammontare di caselle pari al numero di successi ottenuti.</td>
+            </tr>
+            <tr>
+                <td>Spazzata di fuoco</td>
+                <td>1</td>
+                <td>2</td>
+                <td>Fai roteare la lancia e colpisci tutti i bersagli in un quadrato 3x3 centrato su di te. Effettua un solo tiro per colpire per tutti i bersagli.</td>
+            </tr>
+        </table>
+
+        <h3>Balestra dell'ammazzavampiri</h3>
+        <section><img src="balestra.png" alt="Cover"></section>
+        <ul>
+            <li>Danno: 1D10. Requisiti: MENTE 2+</li>
+            <li>Reagenti: 3 CW1</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Costo mana</th>
+                <th>Azione</th>
+                <th>Effetto</th>
+            </tr>
+            <tr>
+                <td>Colpo preciso</td>
+                <td>2</td>
+                <td>Gratuita</td>
+                <td>
+                    Dichiari una parte del corpo. Colpisci con SLANCIO. Se ottieni almeno 2 successi, effetto
+                    aggiuntivo:
+                    <ul>
+                        <li>Testa: 2 successi, bersaglio confuso, -2 volontà. 3 successi, bersaglio perde anche azione
+                            prossimo round</li>
+                        <li>
+                            Braccio: 2 successi, bersaglio subisce una penalità di 2D6 a qualsiasi attacco in mischia
+                            nel prossimo round. 3 successi, il bersaglio lascia cadere cioò che ha in mano.
+                        </li>
+                        <li>
+                            Gamba: 2 successi, bersaglio perde 3 caselle di movimento prossimo round. 3 successi, il bersaglio non può muoversi nel round successivo.
+                        </li>
+                        <li>Effetto personalizzato consono</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Cristallo a frammentazione</td>
+                <td>2</td>
+                <td>1</td>
+                <td>Area: 1 casella attorno al bersaglio (1D6 danni). Il bersaglio primario prende MENTE D8 danni.</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Abilità a consumo corruzione</h2>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Costo corruzione</th>
+                <th>Azione</th>
+                <th>Effetto</th>
+            </tr>
+            <tr>
+                <td>Overclock cardiaco</td>
+                <td>1</td>
+                <td>Gratuita</td>
+                <td>Guadagni un’azione extra solo per attacco o abilità offensiva.</td>
+            </tr>
+            <tr>
+                <td>Ora sei mio</td>
+                <td>3</td>
+                <td>1</td>
+                <td>Applichi Hunter Mark. Tutti i tuoi tiri e quelli degli alleati contro il bersaglio guadagnano 1D6 (non si applica al danno).</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Talenti</h2>
+        <table>
+            <tr>
+                <th>Livello</th>
+                <th>Nome</th>
+                <th>Descrizione</th>
+                <th>Effetto</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Studio del bersaglio</td>
+                <td>"Conosco il modo in cui si muove. Ora so dove colpire."</td>
+                <td>Una volta per combattimento puoi studiare il bersaglio per 1 turno (2 azioni) → +1D6 per tutto il combattimento al colpire contro quel bersaglio.</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cacciatore silenzioso</td>
+                <td>"Uccidere non significa urlare. Significa che non ti vedranno mai arrivare."</td>
+                <td>+1 a Furtività e Percezione in ambienti urbani o notturni. SLANCIO se colpisci un nemico
+                    inconsapevole della tua presenza.</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Presa simbiotica</td>
+                <td>"La mia arma è parte di me. Quando si muove, lo fa con i miei nervi."</td>
+                <td>Riduci di 1 il costo in mana di un’abilità di un'arma. Può essere preso più volte (anche
+                    sulla stessa abilità). Non può ridurre il costo di mana dell'abilità a 0.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Marchio Emorragico</td>
+                <td>"Ogni creatura ha un punto debole. Io ci metto un coltello dentro."</td>
+                <td>Con almeno 2 successi a un attacco, puoi rinunciare al danno e applicare Sanguinamento 3.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Caccia implacabile</td>
+                <td>"Sbagli una volta. Poi non sbagli più. C'è chi direbbe: sbagliando si impara..."</td>
+                <td>Se manchi un attacco, ottieni +1D6 sul prossimo attacco contro lo stesso bersaglio (fino a +3D6).
+                    Cambiando bersaglio si azzera.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Legame affilato</td>
+                <td>"La mia arma mi ascolta. Quando la impugno, respira."</td>
+                <td>Se ottieni almeno 1 successo con l’arma biologica scelta, guadagni 1 mana (1/turno).</td>
+            </tr>
+        </table>
+    </section>
+</body>
+
+</html>
