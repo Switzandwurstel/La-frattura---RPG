@@ -1,1 +1,138 @@
-<html><head><title>Sistema</title></head><body><h1>Sistema</h1><p>Regole di gioco qui...</p></body></html>
+<html>
+
+<head>
+    <title>Regole di gioco</title>
+</head>
+
+<body>
+    <h1>Sistema di risoluzione</h1>
+    <br>
+    <h2>Tiro azione</h2>
+    Il giocatore tira un numero di D6 pari all'Attributo richiesto dalla prova (1-5) e aggiunge un numero di D6 pari
+    alla relativa Skill (0-5)
+    <br>
+    Il DM tira:
+    <ul>
+        <li>[Attributo + Skill del nemico] D6 se è un tiro contrapposto</li>
+        <li>3 D6 (fissi) altrimenti</li>
+    </ul>
+    <br>
+    Se il DM vuole far fare a un giocatore una prova che, a suo parere, non è rappresentata in toto da nessuna skill
+    esistente, può decidere di far tirare al giocatore un numero di dadi pari all'attributo relativo (o attributo x 2 se
+    ritiene la prova semplice).
+    <p>
+        Es: Frank vuole cercare un passaggio segreto nella cantina della famiglia Johnson. Tira un ammontare di dadi
+        pari
+        alla sua percezione, il master tira 3 dadi. Frank vuole cercare di colpire con la sua mazza chiodata George.
+        Frank
+        tira un ammontare di dadi pari al suo CORPO + CAC, il master tira un ammontare di dadi pari a CORPO + schivare
+        di
+        George.
+    </p>
+    <br>
+    <ul>
+        <li>
+            Se è il mostro a dover affrontare una prova non contrapposta, viene scelto casualmente un giocatore per
+            tirare 3 dadi. Non vengono lanciati dadi frattura da tale giocatore.
+        </li>
+        <li>
+            Se i dadi tirati da una delle due parti è inferiore a 3, vengono aggiunte ad entrambe le parti un numero
+            equo di dadi affinché il giocatore con il numero inferiore di dadi ne tiri esattamente 3.
+        </li>
+    </ul>
+    <br>
+    <p>
+        Es. il giocatore vuole fare una prova di percezione. Ha MENTE 1 e nessun punteggio nella skill dedicata. In
+        condizioni normali dovrebbe fare un tiro contro 3D6 del master. Non raggiungendo il minimo numero (3), vengono
+        aggiunti 2 dadi ad entrambe le parti risultando così in uno scontro di 3 vs 5 dadi.
+    </p>
+
+    <h1>Confronto</h1>
+    <ul>
+        <li> Entrambe le parti ordinano i propri dadi dal più alto al più basso.</li>
+        <li> Si confrontano i 3 dadi con il risultato maggiore.</li>
+        <li> Ogni confronto vinto dal giocatore attivo/attaccante vale 1 successo.</li>
+        <li> In caso di pareggio nella faccia del dado, vince il difensore.</li>
+        <li> Nel caso in cui l’attaccante abbia SLANCIO, egli vince i pareggi.</li>
+    </ul>
+    <br>
+    <h1>Esito dell’azione</h1>
+    <ul>
+        <li> 3 successi = Successo critico</li>
+        <li> 2 successi = Successo pieno</li>
+        <li> 1 successo = Successo parziale (l'azione ha successo ma con risvolti negativi)</li>
+        <li> 0 successi = Fallimento</li>
+    </ul>
+    <h1>Dado frattura</h1>
+    <ul>
+        <li>
+            Durante un combattimento con un mostro, per qualsiasi lancio di dadi, a seguito del
+            calcolo dell’iniziativa, occorre utilizzare un dado differente dagli altri (meglio nel colore).
+        </li>
+        <li>
+            Tale dado è chiamato DADO FRATTURA. Se compare il risultato 1 sul dado frattura, viene aumentato il
+            contatore CORRUZIONE NEGATIVA.
+        </li>
+        <li>
+            Una volta che il contatore CORRUZIONE NEGATIVA raggiunge rispettivamente 3, 6, 9 e 15, viene sbloccata una
+            nuova abilità della creatura emersa dalla frattura, si raggiunge una nuova soglia di corruzione ambientale.
+        </li>
+        <li>
+            Una volta raggiunta una soglia di CORRUZIONE NEGATIVA viene aumentato di 1 il numero di DADI FRATTURA.
+            lanciati ad ogni tiro dai personaggi giocanti. (1 se la corruzione è 0-2, 2 se 3-5, 3 se 6-8, 4 se 9-14 e 5
+            se 15+).
+        </li>
+        <li>
+            Se l'azione richiede un numero di D6 inferiori al numero di dadi frattura richiesti dal livello di
+            corruzione, non vengono comunque aggiunti dadi alla prova.
+        </li>
+        <li> Quando esce il risultato 6 su un dado frattura, aumenta invece il contatore CORRUZIONE POSITIVA.</li>
+        <li>
+            Il contatore CORRUZIONE POSITIVA rappresenta un pool di punti condiviso spendibile da ciascuno del gruppo
+            dei personaggi giocanti durante il proprio turno di iniziativa.
+        </li>
+    </ul>
+    <br>
+    Esempio:
+    <ul>
+        <li> Un PG con Attributo 3 + Abilità 2, tira 5 dadi (uno è DADO FRATTURA).</li>
+        <li> Risultati: [6 (FRATTURA), 5, 5, 3, 2]</li>
+        <li> Il nemico tira 6 dadi e prende i 3 migliori: [6, 4, 3]</li>
+        <li> L’attaccante non ha SLANCIO</li>
+        <li> Confronti: 6 vs 6 (pareggio), 5 vs 4 (PG), 5 vs 3 (PG) -> 2 Successi = Successo pieno</li>
+        <li> l DADO FRATTURA ha fatto 6, viene aumento contatore CORRUZIONE POSITIVA</li>
+    </ul>
+    <h1>Azioni</h1>
+    <ul>
+        <li> Ogni turno è composto da 2 azioni.</li>
+        <li> Ogni azione ragionevolmente corta è GRATIS, fino ad un massimo di 2 per turno. </li>
+        <li> Il master ha sempre l’ultima parola sul costo di ciascun’azione.</li>
+        <li>
+            Un personaggio può effettuare massimo 2 REAZIONI al di fuori del proprio turno (triggerate da eventi) per
+            giro di iniziativa
+        </li>
+    </ul>
+    <br>
+    Esempi:
+    <ul>
+        <li> Bere pozione già in mano = Gratis</li>
+        <li> Recuperare pozione e berla = 1 azione</li>
+        <li> Effettuare una skill mentale (es. percezione) = Gratis</li>
+        <li> Movimento = 1 azione</li>
+        <li> Attacco = 1 azione</li>
+        <li> …
+    </ul>
+    <h1>Combattimento</h1>
+    Un tiro di combattimento si svolge come una prova contrapposta tra i dadi di colpire in mischia/a distanza
+    dell’attaccante e dei dadi di schivare/bloccare del difensore.
+    <ul>
+        <li> Se l’attaccante ottiene 0 successi, il colpo manca.</li>
+        <li> Se ottiene 1 successo il colpo infligge metà del danno. </li>
+        <li> Se ottiene 2 successi il colpo infligge il danno previsto. </li>
+        <li> Se ottiene 3 successi è un colpo critico che infligge il doppio del danno.</li>
+    </ul>
+
+
+</body>
+
+</html>
