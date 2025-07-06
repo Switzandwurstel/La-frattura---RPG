@@ -1,12 +1,86 @@
+
 <html>
-
 <head>
-    <title>Classi</title>
+    <title>Attributi e Abilità</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; color: #222; line-height: 1.6; }
+        h1, h2, h3 { color: #880000; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background: #fff; }
+        th, td { border: 1px solid #aaa; padding: 8px; text-align: left; }
+        th { background-color: #ddd; }
+        section { margin-bottom: 40px; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 1px 1px 4px #ccc; }
+        ul { list-style-type: none; padding-left: 1em; }
+        ul li::before { content: "⮚ "; color: #333; }
+        pre { white-space: pre-wrap; background-color: #eee; padding: 10px; border-radius: 8px; }
+    </style>
 </head>
-
 <body>
-    <h1>Classi</h1>
-    <p>Descrizione delle classi qui...</p>
-</body>
+    <h1>Sistema di Attributi e Abilità</h1>
 
+    <section>
+        <h2>Attributo: CORPO</h2>
+        <ul>
+            <li>Colpire corpo a corpo: attacchi ravvicinati con armi bianche, pugni, calci o attacchi naturali</li>
+            <li>Colpire a distanza: attacchi con armi da tiro, oggetti lanciati, magie non a ricerca automatica bersaglio</li>
+            <li>Schivare/Bloccare: evitare, deviare o bloccare colpi</li>
+            <li>Furtività: nascondersi, agire silenziosamente</li>
+            <li>Atletica: azioni acrobatiche varie, salti (il risultato determina lunghezza e altezza)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Attributo: MENTE</h2>
+        <ul>
+            <li>Percezione: trovare inidizi, sentire suoni, notare creature mimetizzate o anomalie, riconoscere piste...</li>
+            <li>Empatia: interrogatori, negoziazione, capire se qualcuno mente, manipolare emotivamente, tradurre linguaggio non verbale</li>
+            <li>Volontà: resistere a stress, paura, controllo mentale</li>
+            <li>Conoscenza: anatomia umana/mostruosa, corruzione, creature, storia, linguaggi antichi, procedure mediche e scientifiche</li>
+            <li>Sintesi: pozioni e armi</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Creazione del Personaggio</h2>
+        <ol>
+            <li>Scegliere classe</li>
+            <li>Assegnare attributi: 5 punti da distribuire tra Corpo e Mente (minimo 1, massimo 4)</li>
+            <li>Assegnare skill: 5 punti da distribuire tra le skill CORPO e 5 punti da distribuire tra le skill MENTE (minimo 0, massimo 2)</li>
+            <li>Calcolare le statistiche derivate</li>
+            <li>Scegliere equipaggiamento di partenza (soldi illimitati)</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Aumento di Livello</h2>
+        <ul>
+            <li>+1 punto Attributo ad ogni livello dispari</li>
+            <li>+2 punti Skill ogni livello spendibili sia in CORPO che MENTE</li>
+            <li>Il massimo di punti assegnabile ad una skill è pari al livello dell'investigatore + 1</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Statistiche Derivate</h2>
+        <ul>
+            <li>Movimento: 3 + CORPO</li>
+            <li>Vita massima: 10 + (CORPO x 3)</li>
+            <li>Iniziativa: Lanciare [MENTE] D6</li>
+            <li>Mana massimo: 3 + (MENTE x 3)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Mana</h2>
+        <ul>
+            <li>Alcune abilità consumano una quantità variabile di Mana (di solito tra 1 e 5)</li>
+            <li>Se il Mana è insufficiente, non è possibile usare l’abilità</li>
+        </ul>
+        <p>Il mana può essere recuperato nei seguenti modi:</p>
+        <ul>
+            <li>Solo durante il combattimento, sfruttando la corruzione che aleggia, +1 Mana al turno spendendo azione</li>
+            <li>+3 Mana con riposo breve (15 minuti)</li>
+            <li>Recupero completo con riposo lungo (8 ore)</li>
+        </ul>
+    </section>
+</body>
 </html>

@@ -1,0 +1,310 @@
+<html>
+
+<head>
+    <title>Apotecario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #880000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+
+        th,
+        td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px #ccc;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 1em;
+        }
+
+        ul li::before {
+            content: "⮚ ";
+            color: #333;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Apotecario</h1>
+    <section><img src="Apotecario.png" alt="Cover"></section>
+    <section>
+        <h2>“Il mio corpo è un laboratorio. Il mio sangue, una formula incompiuta.”</h2>
+        <p>
+            Gli Apotecari sono esseri mutati, ibridi di carne e chimica, le cui viscere sono laboratori viventi. Nessuno
+            nasce Apotecario. Lo si diventa. O meglio: lo si sopravvive.
+            La Corruzione ha riscritto i loro organi, trasformando stomaco e fegato in alambicchi, tessuti in
+            catalizzatori, saliva in reagente. Le sostanze ottenute possono potenziare capacità fisiche e mentali,
+            alterare la percezione, mutare la struttura del corpo.
+        </p>
+        <h3>Funzione nel gruppo</h3>
+        <p>
+            L’Apotecario è un mutante specialista della sopravvivenza e del supporto tattico.
+            Può potenziarsi per diventare più veloce, forte o resistente, sviluppare sensi inumani o modificare la
+            propria anatomia.
+        </p>
+    </section>
+
+    <section>
+        <h2>Giocare un apotecario</h2>
+        <ul>
+            <li>Solo l’apotecario può assumere le sue pozioni: ogni altra creatura morirebbe all'ingestione.</li>
+            <li> Il tiro SINTESI viene eseguito al momento dell’ingestione per motivi di immersione, ma nella pratica è
+                fatto al momento della creazione della pozione (e deve riflettere il punteggio di MENTE del momento
+                della SINTESI)</li>
+            <li>Le pozioni possono superare il cap di attributi e skill.</li>
+            <li>Al livello 1 sceglie 5 pozioni di partenza.</li>
+            <li>Per creare le pozioni servono reagenti nella forma di parti di mostro. Ogni mostro può fornire parti
+                alchemiche comuni (AC), non comuni (AU) o rare (AR). Una parte non comune vale 3 comuni. Una rara vale 3
+                non comuni.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Pozioni sintetizzabili</h2>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Livello</th>
+                <th>Descrizione</th>
+                <th>Bonus</th>
+                <th>Valore per successi</th>
+                <th>Durata</th>
+                <th>Reagenti</th>
+            </tr>
+            <tr>
+                <td>Va’kar</td>
+                <td>1</td>
+                <td>“Una nebbia lattiginosa attraversa i lobi frontali. Le sinapsi si allungano, le associazioni si
+                    moltiplicano. Ogni suono diventa significato.”</td>
+                <td>+MENTE</td>
+                <td>0 / 1 / 2 / 3</td>
+                <td>30 min</td>
+                <td>3AC</td>
+            </tr>
+            <tr>
+                <td>Sa’fir</td>
+                <td>1</td>
+                <td>“I muscoli si contraggono prima ancora che tu lo voglia. Le vene si dilatano. Il cuore batte a un
+                    ritmo che sembra guidato da un predatore invisibile.”</td>
+                <td>+CORPO</td>
+                <td>0 / 1 / 2 / 3</td>
+                <td>30 min</td>
+                <td>3AC</td>
+            </tr>
+            <tr>
+                <td>As’kala</td>
+                <td>1</td>
+                <td>“Il sudore si trasforma in resina. La pelle diventa umida, viscosa, aderente. Ogni movimento emette
+                    un suono molle e inquietante.”</td>
+                <td>Pelle appiccicosa</td>
+                <td>0 / 10 / 20 / 30 min</td>
+                <td>Variabile</td>
+                <td>1AC</td>
+            </tr>
+            <tr>
+                <td>Fi’knir</td>
+                <td>1</td>
+                <td>“Un velo scende sugli occhi, poi si squarcia in mille crepe. La luce perde importanza. Resta solo
+                    ciò che si muove... anche nell’ombra.”</td>
+                <td>Darkvision</td>
+                <td>2 / 4 / 6 / 10 caselle</td>
+                <td>30 min</td>
+                <td>1AC</td>
+            </tr>
+            <tr>
+                <td>Sa’ishin</td>
+                <td>1</td>
+                <td>“Le unghie si allungano, si sfaldano e si riformano a punta. I denti premono contro le labbra,
+                    bramando un morso. Il corpo reclama il sangue.”</td>
+                <td>Arma naturale</td>
+                <td>1D4 / 1D6 / 1D8 + 1 Sanguinamento / 1D10 + 2 Sanguinamento</td>
+                <td>30 min</td>
+                <td>1AC</td>
+            </tr>
+            <tr>
+                <td>Cam’ta</td>
+                <td>1</td>
+                <td>“La pelle vibra in risposta alla luce. Rifrange, riflette, si adatta. Il corpo diventa un errore
+                    visivo, un’illusione ambulante.”</td>
+                <td>Camuffamento</td>
+                <td>Successi richiesti alla percezione (vs 3 dadi) se rimani fermo</td>
+                <td>30 min</td>
+                <td>1AC</td>
+            </tr>
+            <tr>
+                <td>Jam’ti</td>
+                <td>1</td>
+                <td>“Le gambe si irrigidiscono. I tendini si avvolgono come molle sotto tensione. I piedi scricchiolano,
+                    pronti a spiccare il volo.”</td>
+                <td>Super salto</td>
+                <td>1 azione, salto 2 / 4 / 6 / 8 caselle</td>
+                <td>24 ore</td>
+                <td>1AC</td>
+            </tr>
+            <tr>
+                <td>Ko'zir</td>
+                <td>1</td>
+                <td>“Un fluido instabile si diffonde nei tessuti, pronto a rispondere agli stimoli esterni con violenza
+                    imprevedibile.”</td>
+                <td>Attiva una reazione mutagena</td>
+                <td>
+                    0: Nessun effetto<br>
+                    1–2: Scegli effetto a ogni round<br>
+                    3: Scegli anche tipo di danno<br><br>
+
+                    Finché la pozione è attiva, ogni round puoi scegliere uno dei seguenti
+                    adattamenti all'inizio del tuo turno:<br><br>
+
+                    • Pelle spinata: chi ti colpisce in corpo a corpo subisce 3 danni<br>
+
+                    • Cranio cristallizzato: +3 Volontà per il round<br>
+
+                    • Arti nervosi: +3 caselle di movimento<br>
+
+                    • Sangue accelerato: recuperi 3 punti vita<br><br>
+
+                    Se ottieni 3 successi, puoi anche decidere il tipo di danno elementale dei tuoi attacchi (fuoco,
+                    acido o elettrico).
+                </td>
+                <td>10 round</td>
+                <td>1AC</td>
+            </tr>
+            <tr>
+                <td>Ka’raal</td>
+                <td>2</td>
+                <td>“I polmoni si chiudono come boccioli di carne. La pelle filtra l’aria come branchie dimenticate. Il
+                    corpo non chiede più ossigeno… per un po’.”</td>
+                <td>Non necessiti di respirare</td>
+                <td>0 / 1h / 2h / 3h</td>
+                <td>Variabile</td>
+                <td>1AC</td>
+            </tr>
+            <tr>
+                <td>No’dur</td>
+                <td>2</td>
+                <td>“Il tempo rallenta, o forse sei tu ad accelerare. Ogni movimento intorno a te sembra goffo,
+                    prevedibile. L’iniziativa diventa un istinto.”</td>
+                <td>Bonus iniziativa</td>
+                <td>0 / 1D6 / 2D6 / 3D6</td>
+                <td>24 ore</td>
+                <td>1AC</td>
+            </tr>
+            <tr>
+                <td>Za’kul</td>
+                <td>2</td>
+                <td>“Le ossa si liquefanno per un attimo. Il torace si deforma, si comprime. Il corpo scivola tra
+                    spiragli dove prima era solo carne.”</td>
+                <td>Si può passare attraverso fessure o spiragli come se il corpo fosse semiliquido</td>
+                <td>0 / 1h / 2h / 3h</td>
+                <td>Variabile</td>
+                <td>1AC</td>
+            </tr>
+            <tr>
+                <td>Sa’tan</td>
+                <td>2</td>
+                <td>“I muscoli vibrano come corde tese. Il respiro si fa irregolare. Quando colpisci, non sei più umano.
+                    Sei un colpo. Sei la violenza incarnata.”</td>
+                <td>Slancio sui primi attacchi</td>
+                <td>1 / 2 / 3 / 4 attacchi</td>
+                <td>24 ore</td>
+                <td>1AU</td>
+            </tr>
+            <tr>
+                <td>Su’kar</td>
+                <td>2</td>
+                <td>“Strati dermici si sovrappongono, la pelle si tende e si ispessisce. Ogni colpo rimbalza con un
+                    suono sordo, come se colpisse carne morta.”</td>
+                <td>Riduzione danno</td>
+                <td>0 / 1 / 2 / 3</td>
+                <td>24 ore</td>
+                <td>2AU</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Abilità a consumo corruzione</h2>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Costo</th>
+                <th>Azione</th>
+                <th>Effetto</th>
+            </tr>
+            <tr>
+                <td>"Assimilazione assidua"</td>
+                <td>2</td>
+                <td>1</td>
+                <td>Aumenta di uno step l’effetto di tutte le pozioni ingerite.</td>
+            </tr>
+            <tr>
+                <td>"Chi è la bestia ora?"</td>
+                <td>5</td>
+                <td>1</td>
+                <td>Trasformazione bestiale fino alla fine dell’effetto dell’ultima pozione. Può scegliere tra:</td>
+            </tr>
+        </table>
+        <h3>Forme disponibili</h3>
+        <pre>
+            <b>Livello 1:</b>
+            Angry Trogg:
+            • CORPO base 7, MENTE base 1
+            • +3 danni attacchi corpo a corpo
+            • Rigenerazione 3 HP ogni turno
+            • Velocità: 2 caselle
+
+            Monitor Lizard:
+            • CORPO base 6
+            • Riduzione danno 2 (stackabile)
+            • Soffio acido: 2 azioni, 6 caselle linea / 4 caselle cono, 1D6 per pozione attiva
+            • Velocità: 10 caselle
+
+            <b>Livello 2:</b>
+            Wendigo:
+            • CORPO base 5, MENTE base 5
+            • Tutti gli attacchi COC dell’apotecario e degli alleati entro 5 caselle causano SANGUINAMENTO 1
+            • Puoi volare, fluttuando, di 5 caselle
+        </pre>
+    </section>
+</body>
+
+</html>
