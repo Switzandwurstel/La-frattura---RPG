@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Incanalatore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #fdfdfd;
+            color: #222;
+            padding: 40px;
+        }
+
+        h1,
+        h2 {
+            color: #2b2b52;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+
+        th,
+        td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #eee;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Incanalatore</h1>
+    <section><img src="incanalatore.png" alt="Cover"></section>
+    <p><i>“Dove gli altri vedono piaghe e rovina… io vedo potere.”</i></p>
+
+    <h2>Lore</h2>
+    <p>
+        Gli Incanalatori sono individui capaci di piegare a loro volontà l’energia stessa della Frattura. Respirano il
+        miasma tossico della corruzione, assorbono le sue venature nel terreno, e ne distillano il potere puro. La loro
+        magia è instabile, brutale e imprevedibile. Più l’aria è satura di corruzione, più le loro formule si avvicinano
+        all’effetto di un cataclisma. Tuttavia, il prezzo da pagare è alto: l’Incanalatore è un equilibrista sull'orlo
+        dell’abisso, consapevole che un singolo errore può condurlo alla mutazione… o alla follia.
+    </p>
+
+    <h2>Funzione nel gruppo</h2>
+    <p>
+        Danneggiatore a distanza, controllo del campo di battaglia e manipolatore delle risorse ambientali.
+        L’Incanalatore è debole nel combattimento diretto, ma diventa devastante in aree altamente contaminate. Può
+        creare zone di alta corruzione per potenziare sé stesso e gli alleati che la sanno gestire, oppure soffocare i
+        nemici con effetti debilitanti.
+    </p>
+
+    <section>
+        <h2>Giocare un incanalatore</h2>
+        <ul>
+            <li>I poteri dell'incanalatore sono tutti psichici, non richiedono componenti verbali o somatiche e non
+                possono essere schivati.</li>
+            <li>Un incanalatore aggiunge a tutti i danni causati dai suoi poteri un ammontare di danni pari al numero di
+                mutazioni subite.</li>
+            <li>Un incanalatore può avere un numero massimo di mutazioni pari al suo livello x 3. Il superamento di
+                questo limite porta l'incanalatore a perdere il controllo e diventare una macchina omicida > PG non pià
+                utilizzabile.</li>
+        </ul>
+    </section>
+
+    <h2>Abilità di livello</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Livello</th>
+            <th>Costo di mana</th>
+            <th>Tipologia azione</th>
+            <th>Effetto</th>
+        </tr>
+        <tr>
+            <td>Affinità alla corruzione</td>
+            <td>1</td>
+            <td>-</td>
+            <td>Passiva</td>
+            <td>
+                Ogni volta che l’incanalatore lancia un incantesimo può decidere di lanciare un numero di DADI FRATTURA
+                concorde al livello di corruzione in atto (fase del boss).<br>
+                Se ottiene su almeno un dado un risultato di 4 o più, la magia non consuma MANA.<br>
+                Se almeno uno dei DADI FRATTURA lanciati fa 6, la magia ha tutti i parametri indicati tra []
+                raddoppiati.<br>
+                I normali effetti dei DADI FRATTURA vengono applicati regolarmente.
+            </td>
+        </tr>
+        <tr>
+            <td>Sifone della frattura</td>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>Crea un’esplosione violenta di corruzione (verde/violacea) in un’area di [4]x[4] caselle. Danni [1D4 x
+                LVL + (MENTE x 2)]</td>
+        </tr>
+        <tr>
+            <td>Occhio del chaos</td>
+            <td>1</td>
+            <td>2</td>
+            <td>Gratis</td>
+            <td>Permette di individuare fonti di corruzione, tracce magiche o esseri corrotti nel raggio di [MENTE]
+                caselle.</td>
+        </tr>
+        <tr>
+            <td>Spinta entropica</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td>Spinge un bersaglio di [MENTE] caselle in una direzione scelta. Se lo spostamento conduce il bersaglio
+                contro una parete o un ostacolo rigido, esso subisce [1D6] danno. Questo effetto può essere usato per
+                sfondare porte (successo automatico se porta non blindata) e spingere oggetti di peso [MENTE x 30kg].
+                Chi viene colpito da un oggetto spostato in questa maniera subisce [1D6] danno. La magia può essere
+                usata per scagliare una creatura contro un'altra. In tale caso entrambe le creature coinvolte subiscono
+                [1D6] danno.</td>
+        </tr>
+        <tr>
+            <td>Varco dimensionale</td>
+            <td>2</td>
+            <td>3</td>
+            <td>Gratis</td>
+            <td>Ti smaterializzi e ricompari in una casella visibile a [MENTE] caselle di distanza.</td>
+        </tr>
+        <tr>
+            <td>Germi tuoi</td>
+            <td>2</td>
+            <td>3</td>
+            <td>2</td>
+            <td>Scontro di volontà. Con successo pieno o critico passi a una creatura entro 5 caselle una tua mutazione.
+                Perdi 1 punto vita massimo.</td>
+        </tr>
+    </table>
+
+    <h2>Abilità a consumo corruzione</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Costo corruzione</th>
+            <th>Tipologia azione</th>
+            <th>Costo di mana</th>
+            <th>Effetto</th>
+        </tr>
+        <tr>
+            <td>Sifone neurocorruttivo</td>
+            <td>+1 punto CORRUZIONE NEGATIVA</td>
+            <td>1</td>
+            <td>3</td>
+            <td>
+                Assorbi la corruzione di una creatura dell’oltre e la riversi parte nell'aria e in parte dentro il tuo
+                corpo.<br>
+                La creatura subisce [1D6 danni + 1D6 danni per livello di CORRUZIONE NEGATIVA].<br>
+                Tira [1]D6, se almeno un risultato è 1, tira nella tabella mutazione corruttiva.
+            </td>
+        </tr>
+        <tr>
+            <td>Assorbimento spregievole</td>
+            <td>-1 punto CORRUZIONE NEGATIVA</td>
+            <td>Gratis</td>
+            <td>1</td>
+            <td>
+                Assorbi nel tuo corpo parte della corruzione nel luogo.<br>
+                Tira 1D6, se il risultato è 1, tira nella tabella mutazione corruttiva.
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
