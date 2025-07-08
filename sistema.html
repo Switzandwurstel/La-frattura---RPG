@@ -3,15 +3,62 @@
 <head>
     <title>Regole di gioco</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; color: #222; line-height: 1.6; }
-        h1, h2, h3 { color: #880000; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; background: #fff; }
-        th, td { border: 1px solid #aaa; padding: 8px; text-align: left; }
-        th { background-color: #ddd; }
-        section { margin-bottom: 40px; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 1px 1px 4px #ccc; }
-        ul { list-style-type: none; padding-left: 1em; }
-        ul li::before { content: "⮚ "; color: #333; }
-        pre { white-space: pre-wrap; background-color: #eee; padding: 10px; border-radius: 8px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #880000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+
+        th,
+        td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px #ccc;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 1em;
+        }
+
+        ul li::before {
+            content: "⮚ ";
+            color: #333;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 8px;
+        }
     </style>
 </head>
 
@@ -130,7 +177,8 @@
         <li> …
     </ul>
     <h1>Combattimento</h1>
-    Vengono ordinate le iniziative dalla più alta alla più bassa. Un giocatore può decidere di abbassare permanentemente la propria iniziativa di un qualsiasi valore.<br>
+    Vengono ordinate le iniziative dalla più alta alla più bassa. Un giocatore può decidere di abbassare permanentemente
+    la propria iniziativa di un qualsiasi valore.<br>
     Un tiro di combattimento si svolge come una prova contrapposta tra i dadi di colpire in mischia/a distanza
     dell’attaccante e dei dadi di schivare/bloccare del difensore.
     <ul>
@@ -139,8 +187,17 @@
         <li> Se ottiene 2 successi il colpo infligge il danno previsto. </li>
         <li> Se ottiene 3 successi è un colpo critico che infligge il doppio del danno.</li>
     </ul>
-
-
+    <h1>Riduzione danni creature dell'oltre</h1>
+    <ul>
+        <li> 0-2: DR 4 + livello investigatori</li>
+        <li> 3-5: DR 3 + livello investigatori</li>
+        <li> 6-8: DR 2 + livello investigatori</li>
+        <li> 9-15: DR 1 + livello investigatori</li>
+        <li> 15+: DR 0 + livello investigatori</li>
+    </ul>
+    <h1>Morte</h1>
+    Un investigatore muore quando raggiunge un ammontare di punti negativi pari a 3xCORPO. Da 0 punti vita a scendere è
+    inconoscio e perde 1 PV a round fino a che non riceve primo soccorso.
 </body>
 
 </html>
